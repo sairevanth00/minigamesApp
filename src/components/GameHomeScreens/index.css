@@ -1,0 +1,106 @@
+.gameHomeScreensMainCon {
+  height: 1024px;
+  width: 1440px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: linear-gradient(117.3deg, #834d9b 2.24%, #d04ed6 173.83%);
+}
+.mainHeading {
+  position: absolute;
+  left: 44.72%;
+  right: 44.79%;
+  top: 9.38%;
+  bottom: 85.16%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #f8fafc;
+}
+.gameCardsCon {
+  position: absolute;
+  width: 554px;
+  height: 280px;
+  left: 150px;
+  top: 216px;
+
+  background: #ffffff;
+  border-radius: 12px;
+}
+.emojiImg {
+  position: absolute;
+  left: 21.88%;
+  right: 62.57%;
+  top: 23.44%;
+  bottom: 58.2%;
+}
+.cardOneHeading {
+  position: absolute;
+  left: 25.14%;
+  right: 65.83%;
+  top: 43.36%;
+  bottom: 53.91%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #334155;
+}
+.memoryMatrixImg {
+  position: absolute;
+  width: 236px;
+  height: 176px;
+  left: 895px;
+  top: 296px;
+}
+.cardTwoHeading {
+  position: absolute;
+  left: 65.69%;
+  right: 22.64%;
+  top: 23.44%;
+  bottom: 73.44%;
+
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #334155;
+}
+.rockPaperScissorImg {
+  position: absolute;
+  width: 197px;
+  height: 176px;
+  left: 329px;
+  top: 608px;
+}
+.cardThreeHeading {
+  position: absolute;
+  width: 240px;
+  height: 32px;
+  left: 307px;
+  top: 552px;
+
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #334155;
+}
+.animalsCardFlipGameImg {
+  position: absolute;
+  width: 434px;
+  height: 232px;
+  left: 796px;
+  top: 552px;
+}
