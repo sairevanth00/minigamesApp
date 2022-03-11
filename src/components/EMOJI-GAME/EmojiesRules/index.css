@@ -1,0 +1,117 @@
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 77px;
+  height: 32px;
+  left: 120px;
+  top: 64px;
+  color: #334155;
+  font-weight: 500;
+}
+.icon-leftArrow {
+  color: #334155;
+}
+.backBtnCon {
+  display: flex;
+  justify-content: flex-start;
+}
+.backLinkBtn {
+  text-decoration: none;
+}
+.emojiRulesMainCon {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to bottom right,
+    #9796f0 0.5%,
+    #fbc7d4 150%
+  );
+  min-height: 100vh;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.emojiRulesCardCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.19);
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0px 20px 0px;
+}
+@media screen and (min-width: 768px) {
+  .emojiRulesCardCon {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.rulesEmojiImg {
+  height: 200px;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .rulesEmojiImg {
+    height: 300px;
+    width: 300px;
+  }
+}
+.emojiRulesMainHeading {
+  padding-left: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+.startPlayingLinkCon {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  color: #ffffff;
+  cursor: pointer;
+  bottom: 0%;
+  background: #334155;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border: 0px;
+}
+.rulesItemCon {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* identical to box height, or 160% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}

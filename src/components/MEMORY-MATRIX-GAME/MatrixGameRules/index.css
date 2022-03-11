@@ -1,0 +1,76 @@
+.matrix-rules-main-con {
+  font-family: 'Bree Serif';
+  color: white;
+  font-weight: 500;
+  background-color: #1a202c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.matrix-game-backButton {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.backButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 77px;
+  height: 32px;
+  left: 120px;
+  top: 64px;
+  color: #334155;
+  font-weight: 500;
+}
+.backLinkBtn {
+  text-decoration: none;
+  font-family: 'Bree Serif';
+  color: white;
+  font-weight: 500;
+}
+.rules-img-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.matrix-rules-img {
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+.memorymatrix-startPlayingLinkCon {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.memorymatrix-btn {
+  font-family: 'Bree Serif';
+  color: white;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #467aff;
+  border-radius: 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border: 0px;
+  cursor: pointer;
+}
+.rulesListItem {
+  line-height: 32px;
+}
+.matrix-rules-main-heading {
+  letter-spacing: 1px;
+}

@@ -1,0 +1,36 @@
+.card-flip-game-rules-main-con {
+  background-color: #14332e;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Bree Serif';
+  color: white;
+}
+.cardFlip-backLinkBtn {
+  color: white;
+  text-decoration: none;
+}
+.cardFlip-backButton {
+  display: flex;
+  align-items: center;
+}
+.cardFlip-rules-img-con {
+  text-align: center;
+}
+.cardFlip-rules-points {
+  line-height: 32px;
+}
+.cardFlip-start-playing-btn {
+  background-color: white;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  border: 0px;
+  cursor: pointer;
+}
+.cardFlip-startGame-link-con {
+  text-decoration: none;
+}

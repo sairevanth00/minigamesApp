@@ -10,10 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.imgSiz {
-  height: 188px;
-  width: 224px;
-  left: 315px;
-  top: 240px;
-  border-radius: 0px;
+.appMainCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

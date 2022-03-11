@@ -1,0 +1,139 @@
+.cd-flip-game-main-con {
+  min-height: 100vh;
+  background-image: url('https://res.cloudinary.com/saivarma/image/upload/v1636722140/bg-image_roxuhe.png');
+  background-size: cover;
+  padding: 20px 30px 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: 'Bree Serif';
+}
+.back-btn-popup-rules-btn-con {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.cd-flip-back-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.cd-flip-back-btn-txt {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.cd-flip-popupRulesHeading {
+  color: #334155;
+  font-family: 'Bree Serif';
+  text-align: center;
+}
+.cd-flip-list-items-con {
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+  overflow: hidden;
+  font-family: 'Bree Serif';
+}
+.cd-flip-list-items-con:hover {
+  overflow-y: auto;
+}
+.cd-flip-popupRulesTxt {
+  line-height: 32px;
+  color: #334155;
+  font-family: 'Bree Serif';
+}
+.cd-flip-game-main-con-and-result-view-con {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .cd-flip-game-main-con-and-result-view-con {
+    width: 62%;
+  }
+}
+.results-main-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-main-con {
+  background-color: #154315;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.19);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-main-con {
+    justify-content: center;
+    width: 78%;
+  }
+  .cd-flip-game-main-con-and-result-view-con {
+    padding-left: 120px;
+  }
+  .results-main-con {
+    padding-left: 13px;
+    width: 74%;
+  }
+}
+
+.front {
+  padding: 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(167, 243, 208, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.19);
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  height: 100px;
+  width: 100px;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  transition: all 0.3s;
+  position: relative;
+}
+.card .front,
+.card .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.card .front .card-foot-img {
+  display: block;
+  max-width: 100%;
+}
+.card .back {
+  transform: rotateY(180deg);
+}
+.card-foot-img {
+  width: 90%;
+  height: 90%;
+}
+.startGameButton {
+  background-color: #154315;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  cursor: pointer;
+}

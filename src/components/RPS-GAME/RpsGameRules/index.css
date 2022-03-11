@@ -1,0 +1,42 @@
+.rps-game-rules-main-con {
+  font-family: 'Bree Serif';
+  color: white;
+  background-color: #223a5f;
+  min-height: 100vh;
+  padding: 30px;
+}
+.rps-backLinkBtn {
+  text-decoration: none;
+}
+.rps-backButton {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.rps-game-rules-heading-img-con {
+  text-align: center;
+}
+.rps-rules-points {
+  line-height: 32px;
+  font-size: 20px;
+}
+.highlight-txt {
+  color: hsla(61, 100%, 50%, 0.863);
+}
+.leftArrow {
+  color: white;
+}
+.rps-game-start-btn {
+  background-color: white;
+  border-radius: 5px;
+  border: 0px;
+  padding: 8px 12px 8px 12px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  color: #223a5f;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.startPlayingLink {
+  text-decoration: none;
+}
